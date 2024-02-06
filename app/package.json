@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "scripts": {
+    "dev": "GLOBAL_AGENT_HTTP_PROXY=https://127.0.0.1 node --import tsx --require ../setup.cjs src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.7.0",
+    "hono": "^3.12.8"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  }
+}

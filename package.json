@@ -1,0 +1,17 @@
+{
+  "name": "hono-reverse-proxy",
+  "private": true,
+  "workspaces": [
+    "reverse-proxy",
+    "app"
+  ],
+  "devDependencies": {
+    "turbo": "^1.12.2"
+  },
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "dependencies": {
+    "global-agent": "^3.0.0"
+  }
+}
