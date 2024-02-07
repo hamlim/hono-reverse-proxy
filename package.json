@@ -2,8 +2,7 @@
   "name": "hono-reverse-proxy",
   "private": true,
   "workspaces": [
-    "reverse-proxy",
-    "app"
+    "./workspaces/*"
   ],
   "devDependencies": {
     "turbo": "^1.12.2"
