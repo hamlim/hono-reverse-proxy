@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "example-app",
   "scripts": {
     "dev": "GLOBAL_AGENT_HTTP_PROXY=https://127.0.0.1 node --import tsx --require ../setup.cjs src/index.ts"
   },
