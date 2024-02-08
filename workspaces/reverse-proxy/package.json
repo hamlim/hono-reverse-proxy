@@ -1,7 +1,10 @@
 {
   "name": "reverse-proxy",
+  "bin": {
+    "wafer": "dist/cli.js"
+  },
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "build": "bun run ./scripts/build.ts"
   },
   "dependencies": {
     "hono": "^3.12.8"

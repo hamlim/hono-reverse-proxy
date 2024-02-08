@@ -8,7 +8,8 @@
     "turbo": "^1.12.2"
   },
   "scripts": {
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "build:cli": "turbo run build --filter=reverse-proxy"
   },
   "dependencies": {
     "global-agent": "^3.0.0"

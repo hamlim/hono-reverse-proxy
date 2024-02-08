@@ -3,6 +3,10 @@
   "pipeline": {
     "dev": {
       "persistent": true
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist"]
     }
   }
 }
