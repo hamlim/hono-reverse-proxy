@@ -1,8 +1,8 @@
 {
   "name": "example-app",
   "scripts": {
-    "dev": "GLOBAL_AGENT_HTTP_PROXY=https://127.0.0.1 node --import tsx --require ../setup.cjs src/index.ts",
-    "foo": "wafer test"
+    "dev": "wafer run node src/index.mjs",
+    "version": "wafer version"
   },
   "dependencies": {
     "@hono/node-server": "^1.7.0",
