@@ -1,7 +1,5 @@
 // // import { serve } from "@hono/node-server";
 // import { Hono } from "hono";
-import * as mockttp from "mockttp";
-
 // const app = new Hono();
 // app.all((c) => {
 //   console.log("Got a request?!?!?!?");
@@ -19,6 +17,7 @@ import * as mockttp from "mockttp";
 // //   console.log("Starting proxy...");
 // //   return serve({ fetch: app.fetch, port });
 // // }
+import * as mockttp from "mockttp";
 
 let proxy = mockttp.getLocal();
 proxy.start(42069);
